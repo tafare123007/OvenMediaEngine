@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Aranha-Verso</title>
+</head>
+<body>
+    <header>
+        <h1>Aranha-Verso</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Personagens</a></li>
+                <li><a href="#">História</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="main-content">
+        <h2>Bem-vindo ao Aranha-Verso</h2>
+        <p>Explore o emocionante universo do Homem-Aranha em todas as suas formas e dimensões.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Aranha-Verso</p>
+    </footer>
+</body>
+</html>
+.........................................................................................................
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #001F3F; /* Azul escuro */
+    color: #FF4136; /* Vermelho */
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #001F3F; /* Azul escuro */
+}
+
+.main-content {
+    padding: 20px;
+    text-align: center;
+    color: #001F3F; /* Azul escuro */
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #001F3F; /* Azul escuro */
+    color: #FF4136; /* Vermelho */
+}
+
